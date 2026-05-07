@@ -10,3 +10,6 @@
 [submodule "ips_backup/pulp_soc"]
 	path = ips_backup/pulp_soc
 	url = https://github.com/stevenchien123/pulp_soc.git
+[submodule "ips_backup/fir-hwpe"]
+	path = ips_backup/fir-hwpe
+	url = https://github.com/stevenchien123/fir-hwpe.git

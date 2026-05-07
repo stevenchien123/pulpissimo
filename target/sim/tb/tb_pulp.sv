@@ -494,7 +494,7 @@ module tb_pulp;
     .CORE_TYPE ( CORE_TYPE ),
     .USE_FPU   ( USE_FPU   ),
     .USE_ZFINX ( USE_ZFINX ),
-    .USE_HWPE  ( 1'b0      ), //TODO Re-expose once debugged why it is not working
+    .USE_HWPE  ( 1'b1      ), //TODO Re-expose once debugged why it is not working
     .SIM_STDOUT(SIM_STDOUT)
   ) i_dut (
     .pad_ref_clk       ( w_clk_ref           ),
@@ -599,6 +599,9 @@ module tb_pulp;
     else
       begin_l2_instr = 32'h1C008080;
 
+    $display("==================================================");
+    $display("[INFO] test");
+    $display("==================================================");
     $display("[TB  ] %t - Asserting hard reset", $realtime);
     s_rst_n = 1'b0;
 
