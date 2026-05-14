@@ -13,3 +13,6 @@
 [submodule "ips_backup/fir-hwpe"]
 	path = ips_backup/fir-hwpe
 	url = https://github.com/stevenchien123/fir-hwpe.git
+[submodule "sw/regression_test_EfclSolutions"]
+	path = sw/regression_test_EfclSolutions
+	url = https://github.com/stevenchien123/regression_tests.git
