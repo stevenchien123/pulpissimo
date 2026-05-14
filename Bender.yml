@@ -25,11 +25,6 @@ dependencies:
   generic_FLL:                 { git: "https://github.com/pulp-platform/generic_FLL.git",        version: 0.2.0 }
   apb_fll_if:                  { git: "https://github.com/pulp-platform/apb_fll_if.git",         version: 0.2.1 }
 
-  # Target Specific Dependencies
-  # dummy_vip:                   { git: "https://github.com/stevenchien123/dummy_vip.git",         rev: "master" }
-  fir-hwpe:                    { git: "https://github.com/stevenchien123/fir-hwpe.git",          rev: "fc/soc-addertree" }
-  
-
   # Simulation Environment specific dependencies
   pulpissimo_optional_vips:    { path: "target/sim/vip"}
 
