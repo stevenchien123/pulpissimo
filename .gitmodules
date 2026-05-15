@@ -4,15 +4,12 @@
 [submodule "regression_tests"]
 	path = sw/regression_tests
 	url = https://github.com/pulp-platform/regression_tests.git
-[submodule "sw/regression_tests_efclSolutions"]
-	path = sw/regression_tests_efclSolutions
-	url = https://github.com/stevenchien123/regression_tests.git
 [submodule "ips_backup/pulp_soc"]
 	path = ips_backup/pulp_soc
 	url = https://github.com/stevenchien123/pulp_soc.git
 [submodule "ips_backup/fir-hwpe"]
 	path = ips_backup/fir-hwpe
 	url = https://github.com/stevenchien123/fir-hwpe.git
-[submodule "sw/regression_test_EfclSolutions"]
-	path = sw/regression_test_EfclSolutions
+[submodule "sw/regression_tests_EfclSolutions"]
+	path = sw/regression_tests_EfclSolutions
 	url = https://github.com/stevenchien123/regression_tests.git
